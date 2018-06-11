@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
 
         //myText = (TextView)findViewById(R.id.sensingText);
         //myBell = (ImageView)findViewById(R.id.imageView);
-        //mp = MediaPlayer.create(getApplicationContext(), R.raw.ringf);
+        mp = MediaPlayer.create(getApplicationContext(), R.raw.ringf);
         audMan = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
 
         sensorMan = (SensorManager)getSystemService(SENSOR_SERVICE);
